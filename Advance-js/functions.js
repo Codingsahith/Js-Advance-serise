@@ -18,5 +18,25 @@ function adding(a,b){
 function sum(x,y){
     return x+y;
 }
-sum(3,2);
+// sum(3,2);
+
+// function with objects
+const user = {
+    username :"sahith",
+    age : 21
+}
+
+function myInfo(info){
+    console.log(`username is ${info.username} and age is ${info.age}`);
+}
+myInfo(user);
+
+// function with array 
+const arr = ["sahith","vinesh","sri"];
+
+function secondArray(myArray){
+    return myArray[0]
+}
+console.log(secondArray(arr));
+
 
