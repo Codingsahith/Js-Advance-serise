@@ -37,6 +37,12 @@ const arr = ["sahith","vinesh","sri"];
 function secondArray(myArray){
     return myArray[0]
 }
-console.log(secondArray(arr));
+// console.log(secondArray(arr));
+
+// Arrow Function
+const mySum = (a,b) => {
+    return a+b;
+}
+console.log(mySum(2,3));
 
 
